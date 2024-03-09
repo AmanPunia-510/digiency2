@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Digiency2</title>
+</head>
+
+<body>
+    <section class="section1 bg-color">
+        <nav class="nav">
+            <div class="container">
+                <div class="navbar d-flex align-items-center">
+                    <div class="logo ff-wsans font-weight-600 font-size-40 line-height-50 primary-color">
+                        Digi<span class="black-37">ency</span>
+                    </div>
+
+                    <ul class="navbar-items d-flex gap-38 align-items-center">
+                        <a href="#" class="text-decoration-none">
+                            <li class="list ff-wsans font-weight-500 font-size-20 line-height-23 black-37">Home</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li class="list ff-wsans font-weight-500 font-size-20 line-height-23 black-37">About Us</li>
+                        </a>
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="list ff-wsans font-weight-500 font-size-20 line-height-23 black-37">Our Work</li>
+                        </a>
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="list ff-wsans font-weight-500 font-size-20 line-height-23 black-37">Clients</li>
+                        </a>
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="list ff-wsans font-weight-500 font-size-20 line-height-23 black-37">Our Blog</li>
+                        </a>
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="list ff-wsans font-weight-500 font-size-20 line-height-23 black-37">Contact Us
+                            </li>
+                        </a>
+                    </ul>
+
+                    <div class="brightness-svg cursor-pointer">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 6.5C12.552 6.5 13 6.053 13 5.5V3.5C13 2.947 12.552 2.5 12 2.5C11.448 2.5 11 2.947 11 3.5V5.5C11 6.053 11.448 6.5 12 6.5ZM21 11.5H19C18.448 11.5 18 11.947 18 12.5C18 13.053 18.448 13.5 19 13.5H21C21.552 13.5 22 13.053 22 12.5C22 11.947 21.552 11.5 21 11.5ZM5 11.5C5.552 11.5 6 11.947 6 12.5C6 13.053 5.552 13.5 5 13.5H3C2.448 13.5 2 13.053 2 12.5C2 11.947 2.448 11.5 3 11.5H5ZM6.2207 5.5283C5.8237 5.1453 5.1907 5.1573 4.8067 5.5533C4.4227 5.9503 4.4337 6.5843 4.8307 6.9673L6.2697 8.3573C6.4647 8.5453 6.7147 8.6373 6.9647 8.6373C7.2267 8.6373 7.4877 8.5353 7.6837 8.3323C8.0677 7.9353 8.0567 7.3013 7.6597 6.9183L6.2207 5.5283ZM17.7302 8.3577C17.5352 8.5447 17.2852 8.6377 17.0352 8.6377C16.7732 8.6377 16.5122 8.5347 16.3162 8.3317C15.9322 7.9357 15.9432 7.3017 16.3402 6.9177L17.7792 5.5287C18.1782 5.1457 18.8102 5.1577 19.1932 5.5537C19.5772 5.9497 19.5662 6.5837 19.1692 6.9677L17.7302 8.3577ZM12 18.5C11.448 18.5 11 18.947 11 19.5V21.5C11 22.053 11.448 22.5 12 22.5C12.552 22.5 13 22.053 13 21.5V19.5C13 18.947 12.552 18.5 12 18.5ZM16.316 16.6676C16.7 16.2716 17.333 16.2596 17.73 16.6426L19.169 18.0326C19.566 18.4156 19.577 19.0496 19.193 19.4466C18.997 19.6496 18.736 19.7516 18.474 19.7516C18.224 19.7516 17.974 19.6596 17.779 19.4716L16.34 18.0816C15.943 17.6986 15.932 17.0646 16.316 16.6676ZM6.27 16.6426L4.831 18.0326C4.434 18.4156 4.423 19.0496 4.807 19.4466C5.003 19.6496 5.264 19.7516 5.526 19.7516C5.776 19.7516 6.026 19.6596 6.221 19.4716L7.66 18.0816C8.057 17.6986 8.068 17.0646 7.684 16.6676C7.301 16.2716 6.668 16.2596 6.27 16.6426ZM8 12.5C8 10.294 9.794 8.5 12 8.5C14.206 8.5 16 10.294 16 12.5C16 14.706 14.206 16.5 12 16.5C9.794 16.5 8 14.706 8 12.5Z"
+                                fill="#231F20" />
+                            <mask id="mask0_43912_590" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2"
+                                y="2" width="20" height="21">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 6.5C12.552 6.5 13 6.053 13 5.5V3.5C13 2.947 12.552 2.5 12 2.5C11.448 2.5 11 2.947 11 3.5V5.5C11 6.053 11.448 6.5 12 6.5ZM21 11.5H19C18.448 11.5 18 11.947 18 12.5C18 13.053 18.448 13.5 19 13.5H21C21.552 13.5 22 13.053 22 12.5C22 11.947 21.552 11.5 21 11.5ZM5 11.5C5.552 11.5 6 11.947 6 12.5C6 13.053 5.552 13.5 5 13.5H3C2.448 13.5 2 13.053 2 12.5C2 11.947 2.448 11.5 3 11.5H5ZM6.2207 5.5283C5.8237 5.1453 5.1907 5.1573 4.8067 5.5533C4.4227 5.9503 4.4337 6.5843 4.8307 6.9673L6.2697 8.3573C6.4647 8.5453 6.7147 8.6373 6.9647 8.6373C7.2267 8.6373 7.4877 8.5353 7.6837 8.3323C8.0677 7.9353 8.0567 7.3013 7.6597 6.9183L6.2207 5.5283ZM17.7302 8.3577C17.5352 8.5447 17.2852 8.6377 17.0352 8.6377C16.7732 8.6377 16.5122 8.5347 16.3162 8.3317C15.9322 7.9357 15.9432 7.3017 16.3402 6.9177L17.7792 5.5287C18.1782 5.1457 18.8102 5.1577 19.1932 5.5537C19.5772 5.9497 19.5662 6.5837 19.1692 6.9677L17.7302 8.3577ZM12 18.5C11.448 18.5 11 18.947 11 19.5V21.5C11 22.053 11.448 22.5 12 22.5C12.552 22.5 13 22.053 13 21.5V19.5C13 18.947 12.552 18.5 12 18.5ZM16.316 16.6676C16.7 16.2716 17.333 16.2596 17.73 16.6426L19.169 18.0326C19.566 18.4156 19.577 19.0496 19.193 19.4466C18.997 19.6496 18.736 19.7516 18.474 19.7516C18.224 19.7516 17.974 19.6596 17.779 19.4716L16.34 18.0816C15.943 17.6986 15.932 17.0646 16.316 16.6676ZM6.27 16.6426L4.831 18.0326C4.434 18.4156 4.423 19.0496 4.807 19.4466C5.003 19.6496 5.264 19.7516 5.526 19.7516C5.776 19.7516 6.026 19.6596 6.221 19.4716L7.66 18.0816C8.057 17.6986 8.068 17.0646 7.684 16.6676C7.301 16.2716 6.668 16.2596 6.27 16.6426ZM8 12.5C8 10.294 9.794 8.5 12 8.5C14.206 8.5 16 10.294 16 12.5C16 14.706 14.206 16.5 12 16.5C9.794 16.5 8 14.706 8 12.5Z"
+                                    fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_43912_590)">
+                                <rect y="0.5" width="24" height="24" fill="#0D1C2E" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row py-150 align-items-center">
+                <div class="col-6">
+                    <div class="heading1 ff-wsans font-weight-700 font-size-48 line-height-58 black-37">We Are The Best
+                        <span class="primary-color">Digital Agency</span>for
+                        business
+                    </div>
+                    <p class="paragraph1 ff-wsans font-weight-400 font-size-16 line-height-23 black7B mt-12">Amet minim
+                        mollit
+                        non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button
+                        class="contact-btn d-flex justify-content-center align-items-center white-color ff-wsans font-weight-500 font-size-20 line-height-23 mt-5">Contact
+                        Us</button>
+                </div>
+                <div class="col-6">
+                    <img src="./assets/images/section1.png" alt="image-section1" class="image-section1 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section2 py-120">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-6">
+                    <img src="./assets/images/section2.png" alt="section2" class="section2-img w-100">
+                </div>
+
+                <div class="col-6">
+                    <p class="about-us-p ff-wsans font-weight-400 font-size-16 line-height-23 black7B">About Us</p>
+                    <div class="making-h ff-wsans font-weight-600 font-size-40 line-height-48 black-37">We Are <span
+                            class="primary-color">Making<br>
+                            Ideas Better</span> For Everyone</div>
+                    <div class="p2-sec2 ff-wsans font-weight-400 font-size-16 line-height-25 black7B mt-3 mb-3">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper.
+                        Leo faucibus feugiat
+                        rutrum aenean. Nisi, lectus aliquet aliquam consectetur augue praesent. Lorem vulputate orci
+                        eget mi, sed pulvinar.</div>
+
+                    <div class="p3-sec3 ff-wsans font-weight-400 font-size-16 line-height-25 black7B mt-3 mb-3">Ornare
+                        etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet.
+                        Adipiscing feugiat
+                        vel at posuere in. Pellentesque volutpat vestibulum.
+                    </div>
+
+                    <button
+                        class="contact-btn d-flex justify-content-center align-items-center white-color ff-wsans font-weight-500 font-size-20 line-height-23 mt-4">Contact
+                        Us</button>
+                </div>
+            </div>
+
+            <div class="row mt-60">
+                <div class="col-3">
+                    <div class="quality-box d-flex flex-column align-items-center">
+                        <div class="file-svg quality-svg cursor-pointer d-flex justify-content-center align-items-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_43953_866)">
+                                    <path
+                                        d="M11.25 2.50375V2.5H24.9975C25.6875 2.5 26.25 3.06875 26.25 3.74V26.26C26.2497 26.589 26.1188 26.9044 25.886 27.1369C25.6533 27.3694 25.3378 27.5 25.0088 27.5H4.99128C4.82713 27.4989 4.66481 27.4654 4.51359 27.4015C4.36237 27.3376 4.22521 27.2446 4.10995 27.1277C3.99469 27.0108 3.90358 26.8724 3.84182 26.7203C3.78007 26.5682 3.74888 26.4054 3.75003 26.2412V10L11.25 2.50375ZM7.28753 10H11.25V6.0375L7.28753 10ZM13.75 5V11.25C13.75 11.5815 13.6183 11.8995 13.3839 12.1339C13.1495 12.3683 12.8316 12.5 12.5 12.5H6.25003V25H23.75V5H13.75Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_43953_866">
+                                        <rect width="30" height="30" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div
+                            class="quality-txt ff-wsans font-weight-400 font-size-16 line-height-23 black-37 text-center">
+                            World leader in
+                            consulting
+                            and finance</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="quality-box d-flex flex-column align-items-center">
+                        <div class="skill-svg quality-svg cursor-pointer d-flex justify-content-center align-items-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_43953_915)">
+                                    <path
+                                        d="M28.75 14.9999L19.9112 23.8386L18.1438 22.0711L25.215 14.9999L18.1438 7.92863L19.9112 6.16113L28.75 14.9999ZM4.785 14.9999L11.8562 22.0711L10.0887 23.8386L1.25 14.9999L10.0887 6.16113L11.8562 7.92863L4.785 14.9999Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_43953_915">
+                                        <rect width="30" height="30" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+                        <div
+                            class="quality-txt ff-wsans font-weight-400 font-size-16 line-height-23 black-37 text-center">
+                            A focused team with a
+                            specialized skill</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="quality-box d-flex flex-column align-items-center">
+                        <div class="setting-svg quality-svg cursor-pointer d-flex justify-content-center align-items-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_34717_3462)">
+                                    <path
+                                        d="M2.5 14.9996C2.5 13.9184 2.6375 12.8709 2.895 11.8696C3.58558 11.906 4.27275 11.7506 4.88055 11.4207C5.48835 11.0909 5.9931 10.5994 6.33901 10.0006C6.68492 9.40177 6.85851 8.71898 6.84059 8.02768C6.82268 7.33637 6.61396 6.66349 6.2375 6.0834C7.74868 4.59661 9.61349 3.51902 11.6562 2.95215C11.97 3.56899 12.4483 4.08698 13.0382 4.44879C13.6282 4.81059 14.3067 5.00209 14.9987 5.00209C15.6908 5.00209 16.3693 4.81059 16.9593 4.44879C17.5492 4.08698 18.0275 3.56899 18.3413 2.95215C20.384 3.51902 22.2488 4.59661 23.76 6.0834C23.3831 6.66359 23.1741 7.33674 23.156 8.02835C23.138 8.71997 23.3116 9.4031 23.6577 10.0022C24.0038 10.6012 24.5089 11.0929 25.1171 11.4227C25.7253 11.7525 26.4129 11.9076 27.1038 11.8709C27.3612 12.8709 27.4988 13.9184 27.4988 14.9996C27.4988 16.0809 27.3612 17.1284 27.1038 18.1296C26.4131 18.0931 25.7257 18.2483 25.1177 18.578C24.5098 18.9078 24.0048 19.3993 23.6588 19.9981C23.3127 20.597 23.139 21.2799 23.1569 21.9713C23.1747 22.6627 23.3835 23.3357 23.76 23.9159C22.2488 25.4027 20.384 26.4803 18.3413 27.0471C18.0275 26.4303 17.5492 25.9123 16.9593 25.5505C16.3693 25.1887 15.6908 24.9972 14.9987 24.9972C14.3067 24.9972 13.6282 25.1887 13.0382 25.5505C12.4483 25.9123 11.97 26.4303 11.6562 27.0471C9.61349 26.4803 7.74868 25.4027 6.2375 23.9159C6.61438 23.3357 6.82341 22.6626 6.84146 21.9709C6.85951 21.2793 6.68587 20.5962 6.33976 19.9971C5.99366 19.3981 5.48857 18.9064 4.88038 18.5766C4.2722 18.2468 3.58463 18.0917 2.89375 18.1284C2.6375 17.1296 2.5 16.0821 2.5 14.9996ZM8.505 18.7496C9.2925 20.1134 9.5175 21.6821 9.21 23.1546C9.72 23.5171 10.2625 23.8309 10.8313 24.0921C11.9771 23.0657 13.4616 22.4986 15 22.4996C16.575 22.4996 18.0475 23.0884 19.1688 24.0921C19.7375 23.8309 20.28 23.5171 20.79 23.1546C20.4743 21.6496 20.7253 20.081 21.495 18.7496C22.2633 17.4176 23.4963 16.4161 24.9575 15.9371C25.0153 15.3135 25.0153 14.6858 24.9575 14.0621C23.4958 13.5835 22.2623 12.5819 21.4937 11.2496C20.7241 9.91831 20.473 8.34969 20.7887 6.84465C20.2789 6.48205 19.7361 6.16817 19.1675 5.90715C18.022 6.93331 16.5379 7.50041 15 7.49965C13.4616 7.50072 11.9771 6.9336 10.8313 5.90715C10.2627 6.16818 9.71986 6.48206 9.21 6.84465C9.52571 8.34969 9.27466 9.91831 8.505 11.2496C7.73671 12.5817 6.50373 13.5832 5.0425 14.0621C4.98469 14.6858 4.98469 15.3135 5.0425 15.9371C6.50419 16.4158 7.73766 17.4174 8.50625 18.7496H8.505ZM15 18.7496C14.0054 18.7496 13.0516 18.3546 12.3483 17.6513C11.6451 16.948 11.25 15.9942 11.25 14.9996C11.25 14.0051 11.6451 13.0513 12.3483 12.348C13.0516 11.6447 14.0054 11.2496 15 11.2496C15.9946 11.2496 16.9484 11.6447 17.6517 12.348C18.3549 13.0513 18.75 14.0051 18.75 14.9996C18.75 15.9942 18.3549 16.948 17.6517 17.6513C16.9484 18.3546 15.9946 18.7496 15 18.7496ZM15 16.2496C15.3315 16.2496 15.6495 16.118 15.8839 15.8835C16.1183 15.6491 16.25 15.3312 16.25 14.9996C16.25 14.6681 16.1183 14.3502 15.8839 14.1158C15.6495 13.8813 15.3315 13.7496 15 13.7496C14.6685 13.7496 14.3505 13.8813 14.1161 14.1158C13.8817 14.3502 13.75 14.6681 13.75 14.9996C13.75 15.3312 13.8817 15.6491 14.1161 15.8835C14.3505 16.118 14.6685 16.2496 15 16.2496Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_34717_3462">
+                                        <rect width="30" height="30" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+                        <div
+                            class="quality-txt ff-wsans font-weight-400 font-size-16 line-height-23 black-37 text-center">
+                            Trusted and professional
+                            advisors for you</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="quality-box d-flex flex-column align-items-center">
+                        <div class="experience-svg quality-svg cursor-pointer d-flex justify-content-center align-items-center">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_43953_932)">
+                                    <path
+                                        d="M12.5 3.75V6.25H6.25V23.75H23.75V17.5H26.25V25C26.25 25.3315 26.1183 25.6495 25.8839 25.8839C25.6495 26.1183 25.3315 26.25 25 26.25H5C4.66848 26.25 4.35054 26.1183 4.11612 25.8839C3.8817 25.6495 3.75 25.3315 3.75 25V5C3.75 4.66848 3.8817 4.35054 4.11612 4.11612C4.35054 3.8817 4.66848 3.75 5 3.75H12.5ZM21.9825 6.25H16.25V3.75H26.25V13.75H23.75V8.0175L15 16.7675L13.2325 15L21.9825 6.25Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_43953_932">
+                                        <rect width="30" height="30" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+                        <div
+                            class="quality-txt ff-wsans font-weight-400 font-size-16 line-height-23 black-37 text-center">
+                            Trusted and professional
+                            advisors for you</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section3 bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p class="about-us-p ff-wsans font-weight-400 font-size-16 line-height-23 black7B">Our Expereince
+                    </p>
+                    <div class="making-h ff-wsans font-weight-600 font-size-40 line-height-48 black-37">We Have
+                        Completed<span class="primary-color">150+
+                            Projects</span>Succesfully</div>
+                    <div class="p2-sec2 ff-wsans font-weight-400 font-size-16 line-height-25 black7B mt-3 mb-3">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper.
+                        Leo faucibus feugiat
+                        rutrum aenean. Nisi, lectus aliquet aliquam consectetur augue praesent. Lorem vulputate orci
+                        eget mi, sed pulvinar.</div>
+
+                    <div class="p3-sec3 ff-wsans font-weight-400 font-size-16 line-height-25 black7B mt-3 mb-3">Ornare
+                        etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet.
+                        Adipiscing feugiat
+                        vel at posuere in. Pellentesque volutpat vestibulum.
+                    </div>
+
+                    <button
+                        class="contact-btn d-flex justify-content-center align-items-center white-color ff-wsans font-weight-500 font-size-20 line-height-23 mt-4">Contact
+                        Us</button>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6 mb-4">
+                            <div class="customer-card d-flex flex-column justify-content-center align-items-center">
+                                <div class="two50 ff-wsans font-weight-700 font-size-48 line-height-58 black-37">250+
+                                </div>
+                                <div
+                                    class="global-customer ff-wsans font-weight-500 font-size-20 line-height-23 black7B mt-3">
+                                    Global Customer</div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mb-4 d-flex flex-column position-relative t-24">
+                            <div class="customer-card d-flex flex-column justify-content-center align-items-center">
+                                <div class="two50 ff-wsans font-weight-700 font-size-48 line-height-58 black-37">156+
+                                </div>
+                                <div
+                                    class="global-customer ff-wsans font-weight-500 font-size-20 line-height-23 black7B mt-3">
+                                    Project Completed
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="customer-card d-flex flex-column justify-content-center align-items-center">
+                                <div class="two50 ff-wsans font-weight-700 font-size-48 line-height-58 black-37">56+
+                                </div>
+                                <div
+                                    class="global-customer ff-wsans font-weight-500 font-size-20 line-height-23 black7B mt-3">
+                                    Team Member
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 position-relative t-24">
+                            <div class="customer-card d-flex flex-column justify-content-center align-items-center">
+                                <div class="two50 ff-wsans font-weight-700 font-size-48 line-height-58 black-37">15+
+                                </div>
+                                <div
+                                    class="global-customer ff-wsans font-weight-500 font-size-20 line-height-23 black7B mt-3">
+                                    Our Company
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section4 py-120">
+        <div class="container">
+            <p class="about-us-p ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center">Team Member
+            </p>
+
+            <div class="making-h ff-wsans font-weight-600 font-size-40 line-height-48 black-37 text-center mt-4">We
+                Have<br>
+                <span class="primary-color">Some Awesome</span>People
+            </div>
+
+            <div class="row mt-60">
+
+                <div class="col-3">
+                    <div class="member-box">
+                        <img src="./assets/images/member1.png" alt="member1" class="member1 w-100">
+                        <div
+                            class="member-txt ff-wsans font-weight-500 font-size-20 line-height-23 black-color pt-4 pb-12 text-center">
+                            Gustavo Herwitz</div>
+                        <div
+                            class="member-work ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center pb-3">
+                            UI/UX Designer</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="member-box">
+                        <img src="./assets/images/member2.png" alt="member1" class="member1 w-100">
+                        <div
+                            class="member-txt ff-wsans font-weight-500 font-size-20 line-height-23 black-color pt-4 pb-12 text-center">
+                            Phillip Curtis</div>
+                        <div
+                            class="member-work ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center pb-3">
+                            Graphic Designer</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="member-box">
+                        <img src="./assets/images/member3.png" alt="member1" class="member1 w-100">
+                        <div
+                            class="member-txt ff-wsans font-weight-500 font-size-20 line-height-23 black-color pt-4 pb-12 text-center">
+                            Talan Torff</div>
+                        <div
+                            class="member-work ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center pb-3">
+                            Web Developer</div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="member-box">
+                        <img src="./assets/images/member4.png" alt="member1" class="member1 w-100">
+                        <div
+                            class="member-txt ff-wsans font-weight-500 font-size-20 line-height-23 black-color pt-4 pb-12 text-center">
+                            Abram Vaccaro</div>
+                        <div
+                            class="member-work ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center pb-3">
+                            App Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section5">
+        <div class="container">
+            <p class="about-us-p ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center">Our Work</p>
+            <div class="making-h ff-wsans font-weight-600 font-size-40 line-height-48 black-37 text-center mt-4">We Have
+                Some<br>
+                <span class="primary-color">Designed & Development</span> Projects
+            </div>
+            <div class="project-types d-flex justify-content-center gap-43 mt-4 mb-60">
+
+                <a href="#" class="text-decoration-none">
+                    <li class="types ff-wsans font-weight-500 font-size-20 line-height-23 black7B">All</li>
+                </a>
+
+                <a href="#" class="text-decoration-none">
+                    <li class="types ff-wsans font-weight-500 font-size-20 line-height-23 black7B">Graphic Design</li>
+                </a>
+
+                <a href="#" class="text-decoration-none">
+                    <li class="types ff-wsans font-weight-500 font-size-20 line-height-23 black7B">UI/UX Design</li>
+                </a>
+
+                <a href="#" class="text-decoration-none">
+                    <li class="types ff-wsans font-weight-500 font-size-20 line-height-23 black7B">Web Development</li>
+                </a>
+            </div>
+
+            <div class="row pb-120">
+                <div class="col-4">
+                    <div class="position-relative box">
+                        <img src="./assets/images/design.png" alt="design3" class="design3 w-100 h-100">
+                        <div
+                            class="orange-box position-absolute d-flex flex-column justify-content-end align-items-center">
+                            <div class="search-svg cursor-pointer">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_34717_3543)">
+                                        <path
+                                            d="M30.0518 27.6947L37.1902 34.8313L34.8318 37.1897L27.6952 30.0513C25.0397 32.18 21.7368 33.3379 18.3335 33.333C10.0535 33.333 3.3335 26.613 3.3335 18.333C3.3335 10.053 10.0535 3.33301 18.3335 3.33301C26.6135 3.33301 33.3335 10.053 33.3335 18.333C33.3383 21.7363 32.1805 25.0392 30.0518 27.6947ZM26.7085 26.458C28.8237 24.2828 30.0049 21.3671 30.0002 18.333C30.0002 11.8863 24.7785 6.66634 18.3335 6.66634C11.8868 6.66634 6.66683 11.8863 6.66683 18.333C6.66683 24.778 11.8868 29.9997 18.3335 29.9997C21.3675 30.0045 24.2833 28.8232 26.4585 26.708L26.7085 26.458Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_3543">
+                                            <rect width="40" height="40" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+
+                            <div
+                                class="latest-work ff-wsans font-weight-500 font-size-25 line-height-30 white-color mt-4">
+                                Latest work</div>
+                            <div class="ui ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4 mb-4">
+                                UI/UX Design</div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative box">
+                        <img src="./assets/images/design4.png" alt="design2" class="design2 w-100 h-100">
+                        <div
+                            class="orange-box position-absolute d-flex flex-column justify-content-end align-items-center">
+                            <div class="search-svg cursor-pointer">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_34717_3543)">
+                                        <path
+                                            d="M30.0518 27.6947L37.1902 34.8313L34.8318 37.1897L27.6952 30.0513C25.0397 32.18 21.7368 33.3379 18.3335 33.333C10.0535 33.333 3.3335 26.613 3.3335 18.333C3.3335 10.053 10.0535 3.33301 18.3335 3.33301C26.6135 3.33301 33.3335 10.053 33.3335 18.333C33.3383 21.7363 32.1805 25.0392 30.0518 27.6947ZM26.7085 26.458C28.8237 24.2828 30.0049 21.3671 30.0002 18.333C30.0002 11.8863 24.7785 6.66634 18.3335 6.66634C11.8868 6.66634 6.66683 11.8863 6.66683 18.333C6.66683 24.778 11.8868 29.9997 18.3335 29.9997C21.3675 30.0045 24.2833 28.8232 26.4585 26.708L26.7085 26.458Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_3543">
+                                            <rect width="40" height="40" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+
+                            <div
+                                class="latest-work ff-wsans font-weight-500 font-size-25 line-height-30 white-color mt-4">
+                                Latest work</div>
+                            <div class="ui ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4 mb-4">
+                                UI/UX Design</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="position-relative box">
+                        <img src="./assets/images/design2.png" alt="design3" class="design3 w-100 h-100">
+                        <div
+                            class="orange-box position-absolute d-flex flex-column justify-content-end align-items-center">
+                            <div class="search-svg cursor-pointer">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_34717_3543)">
+                                        <path
+                                            d="M30.0518 27.6947L37.1902 34.8313L34.8318 37.1897L27.6952 30.0513C25.0397 32.18 21.7368 33.3379 18.3335 33.333C10.0535 33.333 3.3335 26.613 3.3335 18.333C3.3335 10.053 10.0535 3.33301 18.3335 3.33301C26.6135 3.33301 33.3335 10.053 33.3335 18.333C33.3383 21.7363 32.1805 25.0392 30.0518 27.6947ZM26.7085 26.458C28.8237 24.2828 30.0049 21.3671 30.0002 18.333C30.0002 11.8863 24.7785 6.66634 18.3335 6.66634C11.8868 6.66634 6.66683 11.8863 6.66683 18.333C6.66683 24.778 11.8868 29.9997 18.3335 29.9997C21.3675 30.0045 24.2833 28.8232 26.4585 26.708L26.7085 26.458Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_3543">
+                                            <rect width="40" height="40" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+
+                            <div
+                                class="latest-work ff-wsans font-weight-500 font-size-25 line-height-30 white-color mt-4">
+                                Latest work</div>
+                            <div class="ui ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4 mb-4">
+                                UI/UX Design</div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative box">
+                        <img src="./assets/images/design5.png" alt="design4" class="design4 w-100 h-100">
+                        <div
+                            class="orange-box position-absolute d-flex flex-column justify-content-end align-items-center">
+                            <div class="search-svg cursor-pointer">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_34717_3543)">
+                                        <path
+                                            d="M30.0518 27.6947L37.1902 34.8313L34.8318 37.1897L27.6952 30.0513C25.0397 32.18 21.7368 33.3379 18.3335 33.333C10.0535 33.333 3.3335 26.613 3.3335 18.333C3.3335 10.053 10.0535 3.33301 18.3335 3.33301C26.6135 3.33301 33.3335 10.053 33.3335 18.333C33.3383 21.7363 32.1805 25.0392 30.0518 27.6947ZM26.7085 26.458C28.8237 24.2828 30.0049 21.3671 30.0002 18.333C30.0002 11.8863 24.7785 6.66634 18.3335 6.66634C11.8868 6.66634 6.66683 11.8863 6.66683 18.333C6.66683 24.778 11.8868 29.9997 18.3335 29.9997C21.3675 30.0045 24.2833 28.8232 26.4585 26.708L26.7085 26.458Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_3543">
+                                            <rect width="40" height="40" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+
+                            <div
+                                class="latest-work ff-wsans font-weight-500 font-size-25 line-height-30 white-color mt-4">
+                                Latest work</div>
+                            <div class="ui ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4 mb-4">
+                                UI/UX Design</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="position-relative box">
+                        <img src="./assets/images/design3.png" alt="design5" class="design5 w-100 h-100">
+                        <div
+                            class="orange-box position-absolute  d-flex flex-column justify-content-end align-items-center">
+                            <div class="search-svg cursor-pointer">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_34717_3543)">
+                                        <path
+                                            d="M30.0518 27.6947L37.1902 34.8313L34.8318 37.1897L27.6952 30.0513C25.0397 32.18 21.7368 33.3379 18.3335 33.333C10.0535 33.333 3.3335 26.613 3.3335 18.333C3.3335 10.053 10.0535 3.33301 18.3335 3.33301C26.6135 3.33301 33.3335 10.053 33.3335 18.333C33.3383 21.7363 32.1805 25.0392 30.0518 27.6947ZM26.7085 26.458C28.8237 24.2828 30.0049 21.3671 30.0002 18.333C30.0002 11.8863 24.7785 6.66634 18.3335 6.66634C11.8868 6.66634 6.66683 11.8863 6.66683 18.333C6.66683 24.778 11.8868 29.9997 18.3335 29.9997C21.3675 30.0045 24.2833 28.8232 26.4585 26.708L26.7085 26.458Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_3543">
+                                            <rect width="40" height="40" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+
+                            <div
+                                class="latest-work ff-wsans font-weight-500 font-size-25 line-height-30 white-color mt-4">
+                                Latest work</div>
+                            <div class="ui ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4 mb-4">
+                                UI/UX Design</div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative box">
+                        <img src="./assets/images/design6.png" alt="design6" class="design6 w-100 h-100">
+                        <div
+                            class="orange-box position-absolute  d-flex flex-column justify-content-end align-items-center">
+                            <div class="search-svg cursor-pointer">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_34717_3543)">
+                                        <path
+                                            d="M30.0518 27.6947L37.1902 34.8313L34.8318 37.1897L27.6952 30.0513C25.0397 32.18 21.7368 33.3379 18.3335 33.333C10.0535 33.333 3.3335 26.613 3.3335 18.333C3.3335 10.053 10.0535 3.33301 18.3335 3.33301C26.6135 3.33301 33.3335 10.053 33.3335 18.333C33.3383 21.7363 32.1805 25.0392 30.0518 27.6947ZM26.7085 26.458C28.8237 24.2828 30.0049 21.3671 30.0002 18.333C30.0002 11.8863 24.7785 6.66634 18.3335 6.66634C11.8868 6.66634 6.66683 11.8863 6.66683 18.333C6.66683 24.778 11.8868 29.9997 18.3335 29.9997C21.3675 30.0045 24.2833 28.8232 26.4585 26.708L26.7085 26.458Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_3543">
+                                            <rect width="40" height="40" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+
+                            <div
+                                class="latest-work ff-wsans font-weight-500 font-size-25 line-height-30 white-color mt-4">
+                                Latest work</div>
+                            <div class="ui ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4 mb-4">
+                                UI/UX Design</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section6 bg-color py-60 overflow-hidden">
+        <div class="container">
+            <p class="about-us-p ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center">Clients
+                Feedback</p>
+
+            <div class="making-h ff-wsans font-weight-600 font-size-40 line-height-48 black-37 text-center mt-4 mb-60">
+                Some
+                <span class="primary-color">Great<br>
+                    Words </span> From Our Clients
+            </div>
+
+            <div class="container">
+
+                <div class="slick-slider">
+                    <div class="slick-box box1">
+                        <div class="slick-txt ff-wsans font-weight-500 font-size-25 line-height-30 white-color">Justin
+                            Septimus</div>
+                        <div class="txt2 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-2">CEO,word
+                            yt</div>
+
+                        <div class="txt3 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4">Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas
+                            bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</div>
+                        <img src="./assets/images/slick1.png" alt="slick" class="slick1 position-relative">
+                    </div>
+
+                    <div class="slick-box box2">
+                        <div class="slick-txt ff-wsans font-weight-500 font-size-25 line-height-30 white-color">Ashlynn
+                            Gouse</div>
+                        <div class="txt2 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-2">Managing
+                            Director</div>
+
+                        <div class="txt3 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4">Lorem
+                            ipsum dolor sit amet,
+                            consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</div>
+                        <img src="./assets/images/slick2.png" alt="slick" class="slick1 position-relative">
+                    </div>
+
+                    <div class="slick-box box3">
+                        <div class="slick-txt ff-wsans font-weight-500 font-size-25 line-height-30 white-color">Justin
+                            Septimus</div>
+                        <div class="txt2 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-2">CEO,word
+                            yt</div>
+
+                        <div class="txt3 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4">Lorem
+                            ipsum dolor sit amet,
+                            consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</div>
+                        <img src="./assets/images/slick1.png" alt="slick" class="slick1 position-relative">
+                    </div>
+
+                    <div class="slick-box box4">
+                        <div class="slick-txt ff-wsans font-weight-500 font-size-25 line-height-30 white-color">Ashlynn
+                            Gouse</div>
+                        <div class="txt2 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-2">Managing
+                            Director</div>
+
+                        <div class="txt3 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4">Lorem
+                            ipsum dolor sit amet,
+                            consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</div>
+                        <img src="./assets/images/slick2.png" alt="slick" class="slick1 position-relative">
+                    </div>
+
+                    <div class="slick-box box5">
+                        <div class="slick-txt ff-wsans font-weight-500 font-size-25 line-height-30 white-color">Justin
+                            Septimus</div>
+                        <div class="txt2 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-2">CEO,word
+                            yt</div>
+
+                        <div class="txt3 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4">Lorem
+                            ipsum dolor sit amet,
+                            consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</div>
+                        <img src="./assets/images/slick1.png" alt="slick" class="slick1 position-relative">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section7 py-120 overflow-hidden">
+
+        <div class="container">
+
+            <p class="about-us-p ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center">Our Blog</p>
+
+            <div class="making-h mb-60 ff-wsans font-weight-600 font-size-40 line-height-48 black-37 text-center mt-4">
+                Some
+                Our Latest <span class="primary-color">Blogs <br>
+                    Will Keep </span> Everyone Updated
+            </div>
+
+            <div class="slick-slider">
+
+                <div class="slick-box2 box1">
+                    <div class="slick-content d-flex gap-2">
+                        <div class="slick-content1">
+                            <div class="txt-1 ff-wsans font-weight-400 font-size-16 line-height-23 primary-color">
+                                Graphic Design</div>
+                            <div class="txt-2 ff-wsans font-weight-500 font-size-25 line-height-30 black-37">35 Stellar
+                                Graphic
+                                Design Blogs to Keep You
+                                Educated and Inspired</div>
+                            <div class="img-or-cristofer-part d-flex gap-2 align-items-center mt-4">
+
+                                <div class="cristofer-image">
+                                    <img src="./assets/images/cristofer.png" alt="cristofer" class="cristofer-img">
+                                </div>
+
+                                <div class="cris-text">
+                                    <div
+                                        class="crist-heading ff-wsans font-weight-500 font-size-20 line-height-23 black-37">
+                                        Cristofer Westervelt
+                                    </div>
+                                    <div class="January-part">
+                                        <div
+                                            class="january-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                            January 25, 2021</div>
+                                        <div class="five-min d-flex gap-2 align-items-center">
+                                            <div class="five"></div>
+                                            <div
+                                                class="five-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                                5 min Read</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slick-content2">
+                            <img src="./assets/images/slick-content1.png" alt="" class="slick-content1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-box2 box1">
+                    <div class="slick-content d-flex gap-2">
+                        <div class="slick-content1">
+                            <div class="txt-1 ff-wsans font-weight-400 font-size-16 line-height-23 primary-color">
+                                Managing Director</div>
+                            <div class="txt-2 ff-wsans font-weight-500 font-size-25 line-height-30 black-37">Ridiculously powerful
+                            2021 iPad Pro may drop this
+                            month</div>
+                            <div class="img-or-cristofer-part d-flex gap-2 align-items-center mt-4">
+
+                                <div class="cristofer-image">
+                                    <img src="./assets/images/cristofer1.png" alt="cristofer" class="cristofer-img">
+                                </div>
+
+                                <div class="cris-text">
+                                    <div
+                                        class="crist-heading ff-wsans font-weight-500 font-size-20 line-height-23 black-37">
+                                        Haylie Mango
+                                    </div>
+                                    <div class="January-part">
+                                        <div
+                                            class="january-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                            January
+                                            25, 2021</div>
+                                        <div class="five-min d-flex gap-2 align-items-center">
+                                            <div class="five"></div>
+                                            <div
+                                                class="five-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                                5 min
+                                                Read</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slick-content2">
+                            <img src="./assets/images/slick-ccontent2.png" alt="" class="slick-content1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-box2 box1">
+                    <div class="slick-content d-flex gap-2">
+                        <div class="slick-content1">
+                            <div class="txt-1 ff-wsans font-weight-400 font-size-16 line-height-23 primary-color">
+                                Graphic Design</div>
+                            <div class="txt-2 ff-wsans font-weight-500 font-size-25 line-height-30 black-37">35 Stellar
+                                Graphic
+                                Design Blogs to Keep You
+                                Educated and Inspired</div>
+                            <div class="img-or-cristofer-part d-flex gap-2 align-items-center mt-4">
+
+                                <div class="cristofer-image">
+                                    <img src="./assets/images/cristofer.png" alt="cristofer" class="cristofer-img">
+                                </div>
+
+                                <div class="cris-text">
+                                    <div
+                                        class="crist-heading ff-wsans font-weight-500 font-size-20 line-height-23 black-37">
+                                        Cristofer Westervelt
+                                    </div>
+                                    <div class="January-part">
+                                        <div
+                                            class="january-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                            January
+                                            25, 2021</div>
+                                        <div class="five-min d-flex gap-2 align-items-center">
+                                            <div class="five"></div>
+                                            <div
+                                                class="five-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                                5 min
+                                                Read</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slick-content2">
+                            <img src="./assets/images/slick-content1.png" alt="" class="slick-content1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-box2 box1">
+                    <div class="slick-content d-flex gap-2">
+                        <div class="slick-content1">
+                            <div class="txt-1 ff-wsans font-weight-400 font-size-16 line-height-23 primary-color">
+                                Managing Director</div>
+                            <div class="txt-2 ff-wsans font-weight-500 font-size-25 line-height-30 black-37">Ridiculously powerful
+                            2021 iPad Pro may drop this
+                            month</div>
+                            <div class="img-or-cristofer-part d-flex gap-2 align-items-center mt-4">
+
+                                <div class="cristofer-image">
+                                    <img src="./assets/images/cristofer1.png" alt="cristofer" class="cristofer-img">
+                                </div>
+
+                                <div class="cris-text">
+                                    <div
+                                        class="crist-heading ff-wsans font-weight-500 font-size-20 line-height-23 black-37">
+                                        Haylie Mango
+                                    </div>
+                                    <div class="January-part">
+                                        <div
+                                            class="january-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                            January
+                                            25, 2021</div>
+                                        <div class="five-min d-flex gap-2 align-items-center">
+                                            <div class="five"></div>
+                                            <div
+                                                class="five-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                                5 min
+                                                Read</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slick-content2">
+                            <img src="./assets/images/slick-ccontent2.png" alt="" class="slick-content1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-box2 box1">
+                    <div class="slick-content d-flex gap-2">
+                        <div class="slick-content1">
+                            <div class="txt-1 ff-wsans font-weight-400 font-size-16 line-height-23 primary-color">
+                                Graphic Design</div>
+                            <div class="txt-2 ff-wsans font-weight-500 font-size-25 line-height-30 black-37">35 Stellar
+                                Graphic
+                                Design Blogs to Keep You
+                                Educated and Inspired</div>
+                            <div class="img-or-cristofer-part d-flex gap-2 align-items-center mt-4">
+
+                                <div class="cristofer-image">
+                                    <img src="./assets/images/cristofer.png" alt="cristofer" class="cristofer-img">
+                                </div>
+
+                                <div class="cris-text">
+                                    <div
+                                        class="crist-heading ff-wsans font-weight-500 font-size-20 line-height-23 black-37">
+                                        Cristofer Westervelt
+                                    </div>
+                                    <div class="January-part">
+                                        <div
+                                            class="january-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                            January
+                                            25, 2021</div>
+                                        <div class="five-min d-flex gap-2 align-items-center">
+                                            <div class="five"></div>
+                                            <div
+                                                class="five-txt ff-wsans font-weight-400 font-size-16 line-height-23 black7B">
+                                                5 min
+                                                Read</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slick-content2">
+                            <img src="./assets/images/slick-content1.png" alt="" class="slick-content1">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section8 mb-60">
+        <div class="container">
+            <p class="about-us-p ff-wsans font-weight-400 font-size-16 line-height-23 black7B text-center">Contact Us
+            </p>
+
+            <div class="making-h mb-60 ff-wsans font-weight-600 font-size-40 line-height-48 black-37 text-center mt-4">
+                Feel <span class="primary-color">Free<br>
+                    to Contact</span> With Us
+            </div>
+
+            <div class="row mb-60">
+                <div class="col-4">
+                    <div class="contact-us-box">
+                        <div class="msg-svg-content d-flex gap-3">
+                            <div class="msg-svg d-flex justify-content-center align-items-center cursor-pointer">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 6H30C31.65 6 33 7.35 33 9V27C33 28.65 31.65 30 30 30H6C4.35 30 3 28.65 3 27V9C3 7.35 4.35 6 6 6Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M33 9L18 19.5L3 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="msg-content">
+                                <div class="msg-txt1 font-weight-500 font-size-25 line-height-30 primary-color">Drop a
+                                    line</div>
+                                <div class="txt-2 ff-wsans font-weight-600 font-size-30 line-height-37 mt-2">Mail Us
+                                </div>
+                            </div>
+                        </div>
+                        <div class="support ff-wsans font-weight-500 font-size-20 line-height-23 black7B">
+                            Support87@gmial.com</div>
+                        <div class="support ff-wsans font-weight-500 font-size-20 line-height-23 black7B mt-2">
+                            Support87@gmial.com</div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="contact-us-box">
+                        <div class="msg-svg-content d-flex gap-3">
+                            <div class="msg-svg d-flex justify-content-center align-items-center cursor-pointer">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.5751 7.5C24.0402 7.78585 25.3867 8.50239 26.4422 9.5579C27.4978 10.6134 28.2143 11.9599 28.5001 13.425L22.5751 7.5ZM22.5751 1.5C25.6191 1.83815 28.4575 3.20126 30.6245 5.36551C32.7915 7.52976 34.1582 10.3665 34.5001 13.41L22.5751 1.5ZM33.0001 25.38V29.88C33.0018 30.2978 32.9163 30.7113 32.7489 31.094C32.5816 31.4768 32.3361 31.8204 32.0283 32.1028C31.7204 32.3852 31.357 32.6002 30.9613 32.7341C30.5655 32.8679 30.1462 32.9176 29.7301 32.88C25.1144 32.3785 20.6806 30.8012 16.7851 28.275C13.1609 25.972 10.0881 22.8993 7.78514 19.275C5.25011 15.3618 3.67251 10.9065 3.18014 6.27C3.14266 5.8552 3.19196 5.43714 3.32489 5.04244C3.45783 4.64773 3.6715 4.28503 3.95229 3.97743C4.23309 3.66983 4.57485 3.42406 4.95583 3.25578C5.33681 3.0875 5.74865 3.00039 6.16514 3H10.6651C11.3931 2.99284 12.0988 3.25062 12.6508 3.7253C13.2027 4.19998 13.5633 4.85917 13.6651 5.58C13.8551 7.0201 14.2073 8.43409 14.7151 9.795C14.917 10.3319 14.9606 10.9154 14.841 11.4763C14.7214 12.0373 14.4434 12.5522 14.0401 12.96L12.1351 14.865C14.2705 18.6203 17.3798 21.7297 21.1351 23.865L23.0401 21.96C23.448 21.5567 23.9629 21.2788 24.5238 21.1591C25.0848 21.0395 25.6683 21.0832 26.2051 21.285C27.5661 21.7928 28.98 22.1451 30.4201 22.335C31.1488 22.4378 31.8142 22.8048 32.2899 23.3662C32.7656 23.9277 33.0184 24.6444 33.0001 25.38Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="msg-content">
+                                <div class="msg-txt1 font-weight-500 font-size-25 line-height-30 primary-color">24/7
+                                    Service</div>
+                                <div class="txt-2 ff-wsans font-weight-600 font-size-30 line-height-37 mt-2">Call Us
+                                </div>
+                            </div>
+                        </div>
+                        <div class="support ff-wsans font-weight-500 font-size-20 line-height-23 black7B">
+                            +880 265 98745 <span class="primary-color ml-1">(Toll free)</span></div>
+                        <div class="support ff-wsans font-weight-500 font-size-20 line-height-23 black7B mt-2">
+                            +895 855 85589</div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="contact-us-box">
+                        <div class="msg-svg-content d-flex gap-3">
+                            <div class="msg-svg d-flex justify-content-center align-items-center  cursor-pointer">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M31.5 15C31.5 25.5 18 34.5 18 34.5C18 34.5 4.5 25.5 4.5 15C4.5 11.4196 5.92232 7.9858 8.45406 5.45406C10.9858 2.92232 14.4196 1.5 18 1.5C21.5804 1.5 25.0142 2.92232 27.5459 5.45406C30.0777 7.9858 31.5 11.4196 31.5 15Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M18 19.5C20.4853 19.5 22.5 17.4853 22.5 15C22.5 12.5147 20.4853 10.5 18 10.5C15.5147 10.5 13.5 12.5147 13.5 15C13.5 17.4853 15.5147 19.5 18 19.5Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="msg-content">
+                                <div class="msg-txt1 font-weight-500 font-size-25 line-height-30 primary-color">Location
+                                </div>
+                                <div class="txt-2 ff-wsans font-weight-600 font-size-30 line-height-37 mt-2">Visit Us
+                                </div>
+                            </div>
+                        </div>
+                        <div class="support ff-wsans font-weight-500 font-size-20 line-height-23 black7B">
+                            158 ralegih sit, <br>
+                            houston, yk 5896,uk</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <img src="./assets/images/section8.png" alt="section8" class="section8-img w-100">
+                </div>
+                <div class="col-6">
+                    <div class="send-msg-txt mb-3 ff-wsans font-weight-600 line-height-37 font-size-30 ">Send Your <span
+                            class="primary-color">Message To Us</span></div>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" placeholder="Name"
+                                    class="name ff-wsans font-weight-400 font-size-16 line-height-23 black7B w-100">
+                            </div>
+                            <div class="col-6">
+                                <input type="email" placeholder="Email"
+                                    class="name ff-wsans font-weight-400 font-size-16 line-height-23 black7B w-100">
+                            </div>
+
+                            <div class="col-6 mt-4">
+                                <input type="number" placeholder="Mobile No"
+                                    class="name ff-wsans font-weight-400 font-size-16 line-height-23 black7B w-100">
+                            </div>
+
+                            <div class="col-6 mt-4">
+                                <input type="text" placeholder="Subject"
+                                    class="name ff-wsans font-weight-400 font-size-16 line-height-23 black7B w-100">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <textarea name=""
+                                    class="text-area ff-wsans font-weight-400 font-size-16 line-height-23 black7B w-100 mt-4"
+                                    cols="30" rows="10">Send Massage</textarea>
+                                <button
+                                    class="msg-btn ff-wsans font-weight-500 line-height-23 font-size-20 white-color mt-4">Send
+                                    Massage</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section9">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="googleMap">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d55760.6986057514!2d75.72731029445798!3d29.133902548595714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1709961670853!5m2!1sen!2sin"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section10 py-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <img src="./assets/images/fame1.png" alt="frame1" class="frame1 w-75 h-auto">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/images/Frame 2.png" alt="frame2" class="frame2 w-75 h-auto">
+                </div>
+
+                <div class="col-3">
+                    <img src="./assets/images/Frame 3.png" alt="frame3" class="frame3 w-75 h-auto">
+                </div>
+
+                <div class="col-3">
+                    <img src="./assets/images/Frame 4.png" alt="frame4" class="frame4 w-75 h-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer py-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo ff-wsans font-weight-600 font-size-40 line-height-50 primary-color">
+                        Digi<span class="white-color">ency</span>
+                    </div>
+                    <div class="footer-p1 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas
+                        bibendum.</div>
+
+                    <div class="all-social-svg d-flex justify-content-between mt-3">
+                        <div class="facebook-svg commen-social-svg d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-decoration-none">
+                                <svg width="11" height="20" viewBox="0 0 11 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 11.5H9.5L10.5 7.5H7V5.5C7 4.47 7 3.5 9 3.5H10.5V0.14C10.174 0.0970001 8.943 0 7.643 0C4.928 0 3 1.657 3 4.7V7.5H0V11.5H3V20H7V11.5Z"
+                                        fill="#FF5300" />
+                                </svg>
+
+                            </a>
+                        </div>
+                        <div class="insta commen-social-svg d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-decoration-none">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 0C12.717 0 13.056 0.00999994 14.122 0.0599999C15.187 0.11 15.912 0.277 16.55 0.525C17.21 0.779 17.766 1.123 18.322 1.678C18.8305 2.1779 19.224 2.78259 19.475 3.45C19.722 4.087 19.89 4.813 19.94 5.878C19.987 6.944 20 7.283 20 10C20 12.717 19.99 13.056 19.94 14.122C19.89 15.187 19.722 15.912 19.475 16.55C19.2247 17.2178 18.8311 17.8226 18.322 18.322C17.822 18.8303 17.2173 19.2238 16.55 19.475C15.913 19.722 15.187 19.89 14.122 19.94C13.056 19.987 12.717 20 10 20C7.283 20 6.944 19.99 5.878 19.94C4.813 19.89 4.088 19.722 3.45 19.475C2.78233 19.2245 2.17753 18.8309 1.678 18.322C1.16941 17.8222 0.775931 17.2175 0.525 16.55C0.277 15.913 0.11 15.187 0.0599999 14.122C0.0129999 13.056 0 12.717 0 10C0 7.283 0.00999994 6.944 0.0599999 5.878C0.11 4.812 0.277 4.088 0.525 3.45C0.775236 2.78218 1.1688 2.17732 1.678 1.678C2.17767 1.16923 2.78243 0.775729 3.45 0.525C4.088 0.277 4.812 0.11 5.878 0.0599999C6.944 0.0129999 7.283 0 10 0ZM10 5C8.67392 5 7.40215 5.52678 6.46447 6.46447C5.52678 7.40215 5 8.67392 5 10C5 11.3261 5.52678 12.5979 6.46447 13.5355C7.40215 14.4732 8.67392 15 10 15C11.3261 15 12.5979 14.4732 13.5355 13.5355C14.4732 12.5979 15 11.3261 15 10C15 8.67392 14.4732 7.40215 13.5355 6.46447C12.5979 5.52678 11.3261 5 10 5ZM16.5 4.75C16.5 4.41848 16.3683 4.10054 16.1339 3.86612C15.8995 3.6317 15.5815 3.5 15.25 3.5C14.9185 3.5 14.6005 3.6317 14.3661 3.86612C14.1317 4.10054 14 4.41848 14 4.75C14 5.08152 14.1317 5.39946 14.3661 5.63388C14.6005 5.8683 14.9185 6 15.25 6C15.5815 6 15.8995 5.8683 16.1339 5.63388C16.3683 5.39946 16.5 5.08152 16.5 4.75ZM10 7C10.7956 7 11.5587 7.31607 12.1213 7.87868C12.6839 8.44129 13 9.20435 13 10C13 10.7956 12.6839 11.5587 12.1213 12.1213C11.5587 12.6839 10.7956 13 10 13C9.20435 13 8.44129 12.6839 7.87868 12.1213C7.31607 11.5587 7 10.7956 7 10C7 9.20435 7.31607 8.44129 7.87868 7.87868C8.44129 7.31607 9.20435 7 10 7Z"
+                                        fill="#FF5300" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="twit-svg commen-social-svg d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-decoration-none">
+                                <svg width="22" height="18" viewBox="0 0 22 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.1618 2.6569C20.3984 2.9946 19.5888 3.21638 18.7598 3.3149C19.6336 2.79234 20.2875 1.96992 20.5998 1.0009C19.7798 1.4889 18.8808 1.8309 17.9438 2.0159C17.3144 1.34248 16.4802 0.895866 15.5708 0.745488C14.6614 0.595109 13.7277 0.749394 12.9151 1.18436C12.1024 1.61932 11.4562 2.31059 11.0769 3.1507C10.6976 3.9908 10.6066 4.93268 10.8178 5.8299C9.15492 5.74656 7.52814 5.31443 6.0431 4.56157C4.55805 3.80871 3.24794 2.75195 2.19781 1.4599C1.8261 2.09835 1.63076 2.82413 1.63181 3.5629C1.63181 5.0129 2.36981 6.2939 3.49181 7.0439C2.82782 7.023 2.17844 6.84368 1.59781 6.5209V6.5729C1.59801 7.5386 1.93218 8.47452 2.54366 9.22196C3.15513 9.96941 4.00629 10.4824 4.95281 10.6739C4.33642 10.8409 3.69012 10.8656 3.06281 10.7459C3.32968 11.5771 3.84982 12.3041 4.5504 12.825C5.25099 13.3459 6.09694 13.6347 6.96981 13.6509C6.10229 14.3322 5.10899 14.8359 4.04669 15.1331C2.98439 15.4303 1.87394 15.5152 0.778809 15.3829C2.69051 16.6123 4.9159 17.265 7.18881 17.2629C14.8818 17.2629 19.0888 10.8899 19.0888 5.3629C19.0888 5.1829 19.0838 5.0009 19.0758 4.8229C19.8947 4.23107 20.6014 3.49792 21.1628 2.6579L21.1618 2.6569Z"
+                                        fill="#FF5300" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="skyp-svg commen-social-svg d-flex justify-content-center align-items-center">
+                            <a href="#" class="text-decoration-none">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.3102 17.3992C8.98786 17.6057 7.63547 17.4971 6.36308 17.0822C5.09069 16.6673 3.93425 15.9578 2.98791 15.0114C2.04156 14.0651 1.33205 12.9086 0.917133 11.6363C0.502212 10.3639 0.393607 9.01148 0.600157 7.68918C0.0788897 6.69769 -0.111587 5.56547 0.0565667 4.45799C0.224721 3.35052 0.742689 2.32587 1.53477 1.53379C2.32684 0.741713 3.3515 0.223744 4.45897 0.0555901C5.56644 -0.112564 6.69867 0.0779132 7.69016 0.599181C9.01246 0.39263 10.3648 0.501235 11.6372 0.916156C12.9096 1.33108 14.0661 2.04059 15.0124 2.98693C15.9588 3.93328 16.6683 5.08971 17.0832 6.3621C17.4981 7.63449 17.6067 8.98688 17.4002 10.3092C17.9214 11.3007 18.1119 12.4329 17.9437 13.5404C17.7756 14.6478 17.2576 15.6725 16.4655 16.4646C15.6735 17.2566 14.6488 17.7746 13.5413 17.9428C12.4339 18.1109 11.3016 17.9204 10.3102 17.3992ZM9.05216 14.1552H9.01216C11.8842 14.1552 13.3152 12.7692 13.3152 10.9122C13.3152 9.71418 12.7642 8.44118 10.5892 7.95418L8.60616 7.51418C7.85116 7.34218 6.98416 7.11418 6.98416 6.39918C6.98416 5.68418 7.60416 5.18618 8.70816 5.18618C10.9382 5.18618 10.7352 6.71418 11.8392 6.71418C12.4152 6.71418 12.9322 6.37218 12.9322 5.78418C12.9322 4.41418 10.7352 3.38418 8.87616 3.38418C6.85516 3.38418 4.70316 4.24318 4.70316 6.52818C4.70316 7.62618 5.09716 8.79818 7.26316 9.34118L9.95216 10.0122C10.7682 10.2142 10.9702 10.6712 10.9702 11.0842C10.9702 11.7712 10.2862 12.4422 9.05216 12.4422C6.63516 12.4422 6.97416 10.5852 5.67816 10.5852C5.09816 10.5852 4.67516 10.9832 4.67516 11.5562C4.67516 12.6702 6.02716 14.1542 9.05216 14.1542V14.1552Z"
+                                        fill="#FF5300" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 pl-48">
+                    <div class="company font-weight-600 font-size-40 line-height-48 ff-wsans white-color">Company</div>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-4 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            About Us</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            Our Work</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            Client</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            Our Blog</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            Contact US</li>
+                    </a>
+                </div>
+
+                <div class="col-3 pl-48">
+                    <div class="company font-weight-600 font-size-40 line-height-48 ff-wsans white-color">Sevices</div>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-4 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            Graphic Design</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            UI/UX Design</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            Web Development</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            App Development</li>
+                    </a>
+
+                    <a href="#" class="text-decoration-none">
+                        <li
+                            class="footer-list mt-10 ff-wsans font-weight-400 font-size-16 line-height-23 white-color cursor-pointer">
+                            Web Hosting</li>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <div class="company font-weight-600 font-size-40 line-height-48 ff-wsans white-color">Newsletter
+                    </div>
+
+                    <div class="footer-p1 ff-wsans font-weight-400 font-size-16 line-height-23 white-color mt-4">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Lorem eget varius viverra in.</div>
+
+                    <form action="" class="form w-100 d-flex mt-4">
+                        <input type="email" class="gmail ff-wsans font-weight-400 font-size-16 line-height-23 black7B"
+                            placeholder="info@gmail.com">
+                        <div class="telegram-svg d-flex justify-content-center align-items-center cursor-pointer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_44134_1114)">
+                                    <path
+                                        d="M1.94584 9.31455C1.42384 9.14055 1.41884 8.85955 1.95584 8.68055L21.0428 2.31855C21.5718 2.14255 21.8748 2.43855 21.7268 2.95655L16.2728 22.0426C16.1228 22.5716 15.8178 22.5896 15.5938 22.0876L11.9998 13.9996L17.9998 5.99955L9.99984 11.9996L1.94584 9.31455Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_44134_1114">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-8">
+                    <div class="copyright d-flex gap-3 align-items-center">
+                        <div class="copy-svg cursor-pointer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_44134_427)">
+                                    <path
+                                        d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4ZM12 7C13.82 7 15.413 7.973 16.288 9.428L14.574 10.457C14.3043 10.0072 13.9213 9.63605 13.4634 9.38045C13.0055 9.12484 12.4885 8.99374 11.9641 9.00023C11.4397 9.00672 10.9262 9.15056 10.4747 9.41742C10.0232 9.68428 9.6496 10.0648 9.39107 10.5211C9.13254 10.9774 8.99815 11.4935 9.00128 12.0179C9.00442 12.5424 9.14498 13.0568 9.40895 13.51C9.67292 13.9632 10.0511 14.3392 10.5057 14.6007C10.9603 14.8621 11.4756 14.9998 12 15C12.5181 15.0003 13.0275 14.8664 13.4785 14.6112C13.9294 14.356 14.3065 13.9883 14.573 13.544L16.288 14.572C15.726 15.5106 14.8716 16.239 13.8559 16.6453C12.8402 17.0517 11.7192 17.1137 10.6649 16.8217C9.61058 16.5298 8.68114 15.9 8.01914 15.029C7.35713 14.1581 6.99912 13.094 7 12C7 9.24 9.24 7 12 7Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_44134_427">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="copy-txt ff-wsans font-weight-400 font-size-16 line-height-23 white-color">Copyright
+                            2021. All Right Reserved By Ojjomedia</div>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <button onclick="topFunction()" id="myBtn" title="Go to top">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="#FF5300" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.0835 17.0007V33.6673H14.9168V17.0007H0.333496L17.0002 0.333984L33.6668 17.0007H19.0835Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
