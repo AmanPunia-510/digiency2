@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    transition: all 200ms linear !important;
 }
 
 :root {
@@ -208,6 +207,12 @@
     padding: 26px 0px;
     background-color: var(--white-color);
     box-shadow: 0px 1px 10px 0px #0000001A;
+    left: 0;
+    z-index: 3;
+}
+
+.pt-250 {
+    padding-top: 250px !important;
 }
 
 .bg-color {
@@ -347,6 +352,7 @@ ul {
     width: 470px;
     height: 250px;
     padding-left: 65px;
+    margin-top: 10px;
 }
 
 .img-colon-svg {
@@ -515,6 +521,10 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
 }
 
+.navbar-items{
+    transition: all 300ms linear;
+}
+
 /* hover */
 
 .brightness-svg:active path {
@@ -560,10 +570,65 @@ input::-webkit-inner-spin-button {
     transition: all linear 0.4s;
 }
 
-.commen-social-svg:hover{
+.commen-social-svg:hover {
     background-color: #FF5300;
 }
 
-.commen-social-svg:hover path{
+.commen-social-svg:hover path {
     fill: var(--white-color);
+}
+
+.menubar {
+    height: 40px;
+    width: 50px;
+}
+
+.menubar span {
+    height: 7px;
+    width: 100%;
+    background-color: var(--black-color);
+    border-radius: 5px;
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .slick1 {
+        bottom: 133px;
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-items {
+        flex-direction: column;
+        position: fixed;
+        background-color: var(--white-color);
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        justify-content: center;
+    }
+
+    .left-0{
+        left: 0;
+    }
+
+    .menubar{
+        position: relative;
+        z-index: 2;
+    }
+
+     .py-lg-50{
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+
+     .pt-lg-200{
+        padding-top: 200px !important;
+     }
+}
+
+@media (max-width:576px) {
+    .project-types{
+        overflow-x: scroll;
+    }
 }

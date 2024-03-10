@@ -4,8 +4,6 @@ $('.slick-slider').slick({
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpped: 4000,
     arrows: false,
     responsive: [
         {
@@ -21,14 +19,14 @@ $('.slick-slider').slick({
             breakpoint: 992,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 3
             }
         },
         {
             breakpoint: 576,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1,
+                slidesToScroll: 3,
                 infinite: true,
                 autoplay: true,
                 autoplaySpped: 3000
@@ -92,4 +90,14 @@ bright.addEventListener("click", function () {
         navabar.style.backgroundColor = "white"
 
     }
+})
+
+
+// navbar
+
+let menu_bar = document.querySelector(".menubar");
+let nav_items = document.querySelector(".navbar-items");
+
+menu_bar.addEventListener("click", function () {
+    nav_items.classList.toggle("left-0");
 })
