@@ -49,6 +49,7 @@
     --footer-color: #0D0D0D;
     --section-color: #FFF7F4;
     --setting-svg: #00ACFF;
+    --color-orange: #ff5500ea;
 }
 
 .ff-wsans {
@@ -331,7 +332,7 @@ ul {
 }
 
 .orange-box {
-    background: var(--primary-color);
+    background: var(--color-orange);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
