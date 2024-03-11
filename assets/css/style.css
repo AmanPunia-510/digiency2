@@ -331,7 +331,7 @@ ul {
 }
 
 .orange-box {
-    background: #ff5500ea;
+    background: var(--primary-color);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -565,7 +565,7 @@ input::-webkit-inner-spin-button {
 }
 
 .commen-social-svg:hover {
-    background-color: #FF5300;
+    background-color: var(--primary-color);
 }
 
 .commen-social-svg:hover path {
