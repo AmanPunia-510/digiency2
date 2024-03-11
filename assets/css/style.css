@@ -734,4 +734,8 @@ input::-webkit-inner-spin-button {
     .slick-box2 {
         height: 590px;
     }
+
+    .slick-content1{
+        object-fit: none;
+    }
 }
