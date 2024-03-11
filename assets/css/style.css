@@ -732,10 +732,13 @@ input::-webkit-inner-spin-button {
     }
 
     .slick-box2 {
-        height: 590px;
+        height: auto;
     }
 
     .slick-content1{
         object-fit: none;
+            display: flex;
+                flex-direction: column;
+                align-items: center;
     }
 }
