@@ -35,6 +35,43 @@ $('.slick-slider').slick({
     ]
 });
 
+$('.slick-slider2').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 4,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 3
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                infinite: true,
+                autoplay: false,
+                autoplaySpped: 3000,
+            }
+        }
+    ]
+});
+
 
 // Get the button:
 let mybutton = document.getElementById("myBtn");
