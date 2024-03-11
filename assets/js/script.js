@@ -58,6 +58,7 @@ function topFunction() {
 
 
 // brightness svg
+
 let body = document.querySelector("body")
 let bright = document.querySelector(".brightness-svg");
 let sec1 = document.querySelector(".section1");
@@ -70,7 +71,6 @@ let sec3 = document.querySelector(".section3");
 let sec6 = document.querySelector(".section6");
 let foot = document.querySelector(".footer");
 let box = document.querySelector(".box-1");
-
 
 bright.addEventListener("click", function () {
     if (body.style.backgroundColor == "white") {
