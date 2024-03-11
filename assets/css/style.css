@@ -611,19 +611,25 @@ input::-webkit-inner-spin-button {
     padding-top: 10px;
 }
 
-.all-social-svg-sec1{
-        top: 50%;
-            right: -60px;
-            transform: translate(-50%);
-            transition: all 200ms linear;
+.all-social-svg-sec1 {
+    top: 50%;
+    right: -60px;
+    transform: translate(-50%);
+    transition: all 200ms linear;
 }
 
-.section1:hover .all-social-svg-sec1{
+.section1:hover .all-social-svg-sec1 {
     right: -20px;
 }
 
-.all-social-svg-sec4{
-    top: 0;
+.all-social-svg-sec4 {
+    top: 50%;
+    right: -40px;
+    transform: translatey(-50%);
+    transition: all 200ms linear;
+}
+
+.member-box:hover .all-social-svg-sec4{
     right: 0;
 }
 
@@ -661,7 +667,7 @@ input::-webkit-inner-spin-button {
         top: 0;
     }
 
-    .orange-box{
+    .orange-box {
         height: 97%;
     }
 }
@@ -707,7 +713,7 @@ input::-webkit-inner-spin-button {
         flex-direction: column;
     }
 
-    .slick-content{
-            flex-direction: column-reverse !important;
+    .slick-content {
+        flex-direction: column-reverse !important;
     }
 }
