@@ -331,18 +331,20 @@ ul {
 }
 
 .orange-box {
-    background-color: var(--primary-color);
-    border: none;
+    background: #ff5500ea;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    transition: all 300ms linear;
+    z-index: 1;
     opacity: 0;
     height: 96%;
     width: 96%;
-    bottom: 10px;
-    left: 8px;
 }
 
 .orange-box:hover {
-    opacity: 80%;
-    transition: all linear 0.7s;
+    opacity: 1;
 }
 
 .slick-box {
@@ -357,11 +359,6 @@ ul {
 
 .img-colon-svg {
     margin-top: 25px;
-}
-
-.slick1 {
-    right: 103px;
-    bottom: 160px;
 }
 
 .slick-dots li button:before {
@@ -483,10 +480,6 @@ input::-webkit-inner-spin-button {
     margin-top: 10px;
 }
 
-.pl-48 {
-    padding-left: 48px;
-}
-
 .form {
     height: 60px;
 }
@@ -521,7 +514,7 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
 }
 
-.navbar-items{
+.navbar-items {
     transition: all 300ms linear;
 }
 
@@ -590,10 +583,32 @@ input::-webkit-inner-spin-button {
     border-radius: 5px;
 }
 
-@media (min-width:768px) and (max-width:1200px) {
-    .slick1 {
-        bottom: 133px;
-    }
+.left-40 {
+    left: 20px;
+}
+
+.project-types {
+    overflow-x: scroll;
+}
+
+.slick-slide>div {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-txt-or-image {
+    position: relative;
+    right: 106px;
+    bottom: 6px;
+    gap: 25px;
+}
+
+.slick-txt-content {
+    text-wrap: nowrap;
+}
+
+.slick-track {
+    padding-top: 10px;
 }
 
 @media (max-width:992px) {
@@ -608,27 +623,63 @@ input::-webkit-inner-spin-button {
         justify-content: center;
     }
 
-    .left-0{
+    .left-0 {
         left: 0;
     }
 
-    .menubar{
+    .menubar {
         position: relative;
         z-index: 2;
     }
 
-     .py-lg-50{
+    .py-lg-50 {
         padding-top: 50px;
         padding-bottom: 50px;
-     }
+    }
 
-     .pt-lg-200{
+    .pt-lg-200 {
         padding-top: 200px !important;
-     }
+    }
+
+    .t-24 {
+        top: 0;
+    }
 }
 
 @media (max-width:576px) {
-    .project-types{
-        overflow-x: scroll;
+    .slick-box {
+        width: 276px !important;
+        height: 373px;
+    }
+
+    .making-h {
+        font-size: var(--font-size-25);
+        line-height: 150%;
+    }
+
+    .slick-txt-content {
+        text-wrap: wrap;
+    }
+
+    .slick-txt-or-image {
+        right: 85px;
+    }
+
+    .slick-content {
+        display: flex !important;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media (min-width:320px) and (max-width:576px) {
+    .menubar {
+        height: 30px;
+        width: 35px;
+    }
+
+    .heading1{
+        font-size: var(--font-size-30);
+        line-height: 150%;
     }
 }
