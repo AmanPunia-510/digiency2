@@ -733,12 +733,38 @@ input::-webkit-inner-spin-button {
 
     .slick-box2 {
         height: auto;
+        width: 265px !important;
     }
 
-    .slick-content1{
-        object-fit: none;
-            display: flex;
-                flex-direction: column;
-                align-items: center;
+    .slick-content1 {
+        /* object-fit: none; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 215px;
     }
+
+    .slick-slider2 .over-slider {
+        z-index: 2;
+    }
+
+    .slick-slider2 .slick-list {
+        overflow: visible;
+        padding: 0 20% 0 0;
+        position: relative;
+    }
+
+    .slick-slider2 .slick-list::after {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 4000px;
+        right: 100%;
+        background-color: white;
+    }
+
+       .slick-slider2 .slick-slide>div{
+            display: inline-block !important;
+        }
 }
